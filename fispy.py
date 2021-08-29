@@ -7,6 +7,9 @@ the fisher information matrix for a given system.
 
 @author: edumapurunga
 """
+# Define all functions
+__all__ = ['sym2lti', 'matsim', 'psiji', 'psijil', 'fishinf', 'covdata', 'arma_acorr', 'arma_ccorr']
+
 #%% Necessary libraries
 import numpy as np
 import sympy as sym
